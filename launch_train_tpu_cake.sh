@@ -2,7 +2,7 @@
 
 python3.6 main_tpu.py --use-tpu \
 	--train-input-path gs://birdaus/Train1/* \
-	--eval-input-path gs://birdaus/Validation* \
+	--eval-input-path gs://birdaus/Validation1/* \
 	--model-dir gs://birdaus/model \
 	--result-dir ./results \
 	--batch-size 256  \
