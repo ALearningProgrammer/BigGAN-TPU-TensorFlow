@@ -1,7 +1,8 @@
 
 import tensorflow as tf
 import numpy as np
-import tensorflow_datasets as tfds
+# Eric: tfds is not used since we are using local dataset
+#import tensorflow_datasets as tfds
 
 import math
 import os.path
